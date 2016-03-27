@@ -1,0 +1,16 @@
+{
+  "name": "zwave-server",
+  "description": "Exposes a HTTP interface for controlling ZWave devices.",
+  "version": "0.0.1",
+  "main": "./server.js",
+  "bin": {
+    "zwave-server": "./server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "collections": "^3.0.0",
+    "express": "^4.13.3",
+    "openzwave-shared": "^1.0.9",
+    "shell-arguments": "^1.0.0"
+  }
+}
